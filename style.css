@@ -1,0 +1,115 @@
+body{
+    margin:0px;
+    font-size:0;
+}
+.items{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-color: black;
+    color: white;
+    height: 225px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+#body{
+    background-color: white;
+    color: black;
+    height: px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#foot{
+
+    background-color: black;
+    color: white;
+    height: 205px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+/*head、body、foot内部*/
+#head--all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: pen;
+}
+#body--all{
+    display: flex;
+    font-family: pen;
+    flex-direction: column;
+}
+#foot-head{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    font-family: pen;
+}
+#foot-body{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    font-family: pen;
+}
+#font-foot{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    justify-content: space-around;
+    font-family: pen;
+}
+h1,u,a{
+    font-size: 38px;
+}
+h2{
+    font-size: 28px;
+}
+h3,p{
+    font-size: 18.72px;
+}
+u{
+    text-decoration:none;
+    border: 2px solid #ffffff;
+}
+a{
+    text-decoration:none;
+    color: #000000
+}
+@font-face {
+    font-family: 'pen';
+    src: url('fonts/gangbiziti.ttf'), url('fonts/gangbiziti.otf'), url('fonts/gangbiziti.woff'), url('fonts/gangbiziti.svg');
+  }
+#body-1,#body-2,#body-3,#body-4,#body-5{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black
+}
+#body-1{
+    height:80px
+}
+#body-2{
+    height:750px
+}
+#body-3{
+    height:50px
+}
+#body-4{
+    height:50px
+}
+#body-5{
+    height:50px
+}
